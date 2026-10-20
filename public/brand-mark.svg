@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <rect width="48" height="48" rx="10" fill="#087B8D"/>
+  <path d="m10 27-2-12 8 5 8-11 8 11 8-5-2 12H10Z" fill="#FFFFFF"/>
+  <path d="M11 31h26" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-width="2.5"/>
+  <text x="24" y="40" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="6" font-weight="700" letter-spacing=".45" text-anchor="middle">PRINCE</text>
+</svg>
