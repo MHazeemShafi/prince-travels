@@ -1,34 +1,137 @@
-# Prince Travels
+# Prince Travels ✈️
 
-A responsive travel-assistance website built with React, TypeScript, and Vite.
+**Discover destinations. Plan journeys. Travel with confidence.**
 
-## Run locally
+Prince Travels is a modern, responsive travel agency website designed to showcase destinations, present travel services, and help customers enquire about their next journey. With a primary focus on Gulf destinations and travel options around the world, the website combines an immersive visual experience with a clean, user-friendly interface.
 
-```powershell
+## 🌍 Overview
+
+The website features a teal-blue brand identity, destination-focused photography, responsive layouts, and convenient enquiry options to help visitors explore travel possibilities.
+
+### Highlights
+
+- **Gulf Destinations:** Explore destinations across the UAE, Saudi Arabia, Qatar, Oman, Bahrain, and Kuwait.
+- **Worldwide Travel:** Discover destinations across Asia, Europe, Africa, the Americas, and beyond.
+- **Destination Showcase:** Image-led layouts designed to make exploring destinations engaging.
+- **Travel Services:** A clear presentation of available travel services.
+- **Responsive Design:** Adapted for desktop, tablet, and mobile devices.
+- **Enquiry Experience:** Convenient contact options to help visitors plan their trips.
+- **Brand Identity:** Teal-blue branding with a crown-inspired Prince Travels logo.
+
+*Destination examples are for inspiration; actual packages and availability should be confirmed directly with the agency.*
+
+## 🎨 Design
+
+| Element | Specification |
+|---|---|
+| Primary colour | `#087B8D` — Teal blue |
+| Supporting colour | `#FFFFFF` — White |
+| Text colour | `#172B35` — Dark navy |
+| Accent colour | `#DDF2F3` — Light teal |
+| Design direction | Modern, cinematic, travel-focused |
+
+## 🛠️ Tech Stack
+
+- **React** — Component-based user interface
+- **TypeScript** — Type-safe development
+- **Vite** — Development server and production build tooling
+- **CSS / Tailwind CSS** — Styling and responsive layouts
+- **Git & GitHub** — Version control and source hosting
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- npm
+- Git
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/MHazeemshafi/prince-travels.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd prince-travels
+```
+
+Install dependencies:
+
+```bash
 npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
 ```
 
-Create and type-check a production build with:
+Open the local URL displayed in your terminal.
 
-```powershell
+### Production Build
+
+Generate an optimised production build:
+
+```bash
 npm run build
 ```
 
-## Photography
+Preview the production build locally:
 
-Local travel imagery is sourced from Unsplash and served from `public/images`
-so the site does not depend on a third-party image host at runtime:
+```bash
+npm run preview
+```
 
-- [Dubai skyline — Unsplash image](https://images.unsplash.com/photo-1512453979798-5ea266f8880c)
-- [Dubai coastline — Unsplash image](https://images.unsplash.com/photo-1518684079-3c830dcef090)
-- [Kerala backwaters — Unsplash image](https://images.unsplash.com/photo-1602216056096-3b40cc0c9944)
-- [Flight above the clouds — Unsplash image](https://images.unsplash.com/photo-1436491865332-7a61a109cc05)
-Images that are illustrative rather than location-specific are used as
-decorative travel imagery, not as a claim that they depict a listed destination.
+The generated website files are placed in the `dist/` directory.
 
-## Branding
+## 📁 Project Structure
 
-The site uses a custom crown-and-wordmark lockup and matching favicon because
-no original Prince Travels logo asset is included. Brand colors are defined in
-`src/index.css` and mirrored in `src/config/site.ts`.
+```text
+prince-travels/
+├── public/             # Static assets
+├── src/
+│   ├── assets/         # Images and other assets
+│   ├── components/     # Reusable UI components
+│   ├── config/         # Site configuration
+│   ├── pages/          # Website pages
+│   ├── index.css       # Global styles
+│   └── main.tsx        # Application entry point
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.ts
+└── README.md
+```
+
+*The structure is illustrative; actual folders may differ.*
+
+## 🌐 Deployment
+
+The website can be deployed using GitHub Pages or another static hosting platform that supports Vite applications.
+
+For GitHub Pages, configure the appropriate Vite base path and a deployment workflow to build and publish the `dist/` directory.
+
+## 🔮 Future Improvements
+
+- Destination-specific detail pages
+- Destination search and regional filters
+- Dedicated tour and package listings
+- Enhanced travel enquiry forms
+- Additional destination photography
+- Further accessibility and performance improvements
+
+## 👨‍💻 Developer
+
+**Mohammed Hazeem Shafi**
+
+GitHub: [@MHazeemshafi](https://github.com/MHazeemshafi)
+
+---
+
+*Prince Travels — Your next journey starts here.*
